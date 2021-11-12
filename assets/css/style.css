@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/*#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+}*/
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -544,7 +544,9 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  /*background: rgba(69, 80, 91, 0.8);*/
+  border: 2px solid rgba(5,99,187, 0.7);
+  border-radius: 10px;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
