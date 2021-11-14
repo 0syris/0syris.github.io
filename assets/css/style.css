@@ -547,6 +547,7 @@ section {
   background: white;
   border: 2px solid rgba(5,99,187, 0.7);
   border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -606,6 +607,7 @@ section {
   color: #45505b;
   font-weight: 600;
 }
+
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
   font-size: 14px;
@@ -671,7 +673,7 @@ section {
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.20);
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
